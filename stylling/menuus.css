@@ -1,0 +1,17 @@
+#menusss{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 100px 500px;
+    height: 400px;
+   
+    margin-left: 300px;
+    text-align: center;
+}
+
+#collection{
+    font-size: x-large;
+    background-color: aquamarine;
+}
+#items{
+    background-color: black;
+}

@@ -1,0 +1,61 @@
+
+body{
+    margin: 0px;
+    background-image: url(/images/restaurant_background.jpg);   
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+
+    }
+#topDiv{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+}
+#logoPanel{
+    
+    flex: 1.5;
+    font-size: 30px
+}
+#tabs{
+   
+    flex:3.5;
+    align-items: center;
+    
+}
+#logo{
+    float: left;
+}
+.home{
+    float: right;
+    margin-right:100px ;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(31, 32, 31);
+    text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.3);
+}
+#first{
+    font-size: 50px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: rgb(144, 144, 141);
+    text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.966);
+    
+}
+#second{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: rgb(94, 96, 94);
+    text-shadow: 2px 2px 2px  rgb(0, 0, 0);
+
+}
+#third{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: rgb(46, 43, 43);
+    text-shadow: 2px 2px 2px  black;
+ 
+}
